@@ -13,12 +13,10 @@ const Container = styled.div({
 const ButtonBox = tw.div`flex flex-col justify-center h-full gap-y-5`
 
 const IndexPage = () => (
-  <Container hasBackground>
-    <ButtonBox>
-      <Button variant="primary">Submit</Button>
-      <Button variant="secondary">Cancel</Button>
-      <Button isSmall>Close</Button>
-    </ButtonBox>
+  <Container>
+    <h1 tw="text-ribbon">HI</h1>
+    <h1 tw="text-cust-cust1">HI</h1>
+    <h1 tw="text-cust-cust2">HI</h1>
     <Logo />
   </Container>
 )

@@ -11,12 +11,10 @@ const styles = {
 }
 
 const IndexPage = () => (
-  <div css={styles.container({ hasBackground: true })}>
-    <div tw="flex flex-col justify-center h-full gap-y-5">
-      <Button variant="primary">Submit</Button>
-      <Button variant="secondary">Cancel</Button>
-      <Button isSmall>Close</Button>
-    </div>
+  <div css={styles.container({ hasBackground: false })}>
+    <h1 tw="text-ribbon">HI</h1>
+    <h1 tw="text-cust-cust1">HI</h1>
+    <h1 tw="text-cust-cust2">HI</h1>
     <Logo />
   </div>
 )
